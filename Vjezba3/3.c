@@ -9,7 +9,7 @@ int main() {
 	
 	int *arr = (int*)malloc(sizeof(int)*N);
 	int *koraka_do_sad= (int*)malloc(sizeof(int)*N);
-	int index2 = 0, index3 = 0, broj_koraka = 0;
+	int index2 = 0, index3 = 0, broj_koraka = 9999;
 	
 	*(koraka_do_sad) = 0;
 	for (int i = 1; i < N; i++) {
